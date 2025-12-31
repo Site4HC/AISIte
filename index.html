@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AISite — інтелектуальні рішення</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <div class="logo">AISite</div>
+      <nav>
+        <a href="#solutions">Рішення</a>
+        <a href="#process">Процес</a>
+        <a href="#cases">Кейси</a>
+        <a href="#contact">Контакти</a>
+      </nav>
+      <button class="cta ghost" data-scroll="#contact">Обговорити проєкт</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Інтелектуальна трансформація бізнесу</p>
+          <h1>Створюємо AI‑рішення, що приносять вимірювану цінність.</h1>
+          <p class="lede">Від ідеї до запуску під ключ: дослідження, прототипування, продакшн та підтримка. Команда AISite допоможе впровадити ШІ в продукт або процеси.</p>
+          <div class="actions">
+            <button class="cta" data-scroll="#contact">Запланувати консультацію</button>
+            <button class="secondary" data-scroll="#solutions">Дізнатись більше</button>
+          </div>
+          <div class="stats">
+            <div class="stat">
+              <span class="number">24</span>
+              <span class="label">проєкти з ML та LLM</span>
+            </div>
+            <div class="stat">
+              <span class="number">3x</span>
+              <span class="label">прискорення time‑to‑market</span>
+            </div>
+            <div class="stat">
+              <span class="number">99.9%</span>
+              <span class="label"> SLA продакшн‑моделей</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-stack" aria-hidden="true">
+          <div class="card primary">
+            <p class="label">LLM‑оркестрація</p>
+            <p class="value">Аналітика документів</p>
+            <p class="muted">Автоматичне витягування ключових фактів з контрактів, уніфікація форматів і підготовка звітів.</p>
+          </div>
+          <div class="card accent">
+            <p class="label">MLOps</p>
+            <p class="value">Моніторинг дрейфу даних</p>
+            <p class="muted">Попереджаємо ризики якості завдяки алертам, A/B‑експериментам та автоматичному переобученню.</p>
+          </div>
+          <div class="card ghost">
+            <p class="label">Automation</p>
+            <p class="value">Розумні чат‑боти</p>
+            <p class="muted">Обслуговування клієнтів 24/7 із персоналізованими сценаріями та інтеграцією з CRM.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel" id="solutions">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Що робимо</p>
+            <h2>Повний цикл AI‑розробки</h2>
+            <p class="lede">Фокус на бізнес‑результаті: від гіпотез до продуктивних сервісів із захищеною інфраструктурою.</p>
+          </div>
+          <button class="secondary" data-scroll="#contact">Звʼязатися</button>
+        </div>
+        <div class="grid cards">
+          <article class="card">
+            <h3>LLM‑продукти</h3>
+            <p>Побудова чат‑інтерфейсів, ассистентів для сапорту, генерації контенту, пошуку й аналізу документів.</p>
+            <ul>
+              <li>Векторний пошук та ранжування</li>
+              <li>Ланцюжки викликів моделей та інструментів</li>
+              <li>Зменшення вартості токенів та latency</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Дані та MLOps</h3>
+            <p>Налагоджуємо data‑пайплайни, автоматизуємо тренування та деплой моделей з повним моніторингом.</p>
+            <ul>
+              <li>CI/CD для моделей та фіч‑стор</li>
+              <li>Моніторинг дрейфу, алерти, A/B‑тести</li>
+              <li>Інфраструктура в cloud або on‑prem</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Аналітика & automation</h3>
+            <p>Оптимізація бізнес‑процесів: RPA, прогнозування, скоринг, персоналізація та рекомендаційні системи.</p>
+            <ul>
+              <li>Побудова дашбордів та API</li>
+              <li>Прогнози попиту та виявлення аномалій</li>
+              <li>Зниження операційних витрат</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="process" id="process">
+      <div class="container">
+        <div class="section-head center">
+          <p class="eyebrow">Як ми працюємо</p>
+          <h2>Прозорий процес у 4 кроки</h2>
+          <p class="lede">Чіткий план із дедлайнами та демо, щоб ви бачили цінність на кожному етапі.</p>
+        </div>
+        <div class="timeline">
+          <div class="step">
+            <div class="badge">1</div>
+            <div>
+              <h3>Дискавері</h3>
+              <p>Збираємо вимоги, формуємо цілі, аналізуємо дані та готові системи. Погоджуємо KPI.</p>
+            </div>
+          </div>
+          <div class="step">
+            <div class="badge">2</div>
+            <div>
+              <h3>Прототип</h3>
+              <p>Створюємо демо з реальними даними, перевіряємо гіпотези на невеликій вибірці користувачів.</p>
+            </div>
+          </div>
+          <div class="step">
+            <div class="badge">3</div>
+            <div>
+              <h3>Запуск</h3>
+              <p>Деплоїмо в обрану інфраструктуру, інтегруємо з CRM/ERP, налаштовуємо логування та моніторинг.</p>
+            </div>
+          </div>
+          <div class="step">
+            <div class="badge">4</div>
+            <div>
+              <h3>Підтримка</h3>
+              <p>Супровід, аналітика, ретрейн моделей та розвиток нових функцій за потребою.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel" id="cases">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Результати</p>
+            <h2>Реальні кейси</h2>
+            <p class="lede">Досвід у фінансах, e‑commerce, виробництві та сервісах.</p>
+          </div>
+          <div class="pill">Конфіденційність клієнтів збережена</div>
+        </div>
+        <div class="grid cases">
+          <article class="case">
+            <p class="label">E‑commerce</p>
+            <h3>Рекомендації та персоналізація</h3>
+            <p class="muted">ML‑моделі збільшили конверсію в покупку на 18% завдяки персональним пропозиціям.</p>
+            <div class="chip">+18% конверсії</div>
+          </article>
+          <article class="case">
+            <p class="label">Фінанси</p>
+            <h3>Автоматизація комплаєнсу</h3>
+            <p class="muted">LLM‑агенти прискорили аналіз документів у 6 разів та зменшили ручну роботу команди.</p>
+            <div class="chip">6x швидше</div>
+          </article>
+          <article class="case">
+            <p class="label">Сервіси</p>
+            <h3>Голосові боти підтримки</h3>
+            <p class="muted">ШІ‑консультанти приймають до 70% звернень без ескалації на живих операторів.</p>
+            <div class="chip">70% самостійних рішень</div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-block" id="contact">
+      <div class="container cta-inner">
+        <div>
+          <p class="eyebrow">Готові почати?</p>
+          <h2>Надішліть запит і отримайте roadmap за 3 дні</h2>
+          <p class="lede">Опишіть задачу, і ми запропонуємо рішення, оцінку часу та вартості.</p>
+        </div>
+        <form class="form" aria-label="Форма контакту">
+          <div class="form-row">
+            <label>
+              Імʼя
+              <input type="text" name="name" placeholder="Олексій" required>
+            </label>
+            <label>
+              Робочий email
+              <input type="email" name="email" placeholder="name@company.com" required>
+            </label>
+          </div>
+          <label>
+            Опишіть задачу
+            <textarea name="message" rows="3" placeholder="Розкажіть про продукт, дані та очікувані результати" required></textarea>
+          </label>
+          <div class="form-row align-center">
+            <label class="checkbox">
+              <input type="checkbox" required>
+              <span>Погоджуюсь на обробку даних</span>
+            </label>
+            <button type="submit" class="cta">Надіслати</button>
+          </div>
+          <p class="muted small">Ми відповімо протягом одного робочого дня.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="logo">AISite</div>
+        <p class="muted">AI‑рішення для бізнесу з акцентом на надійність, масштабованість та безпеку.</p>
+      </div>
+      <div>
+        <p class="label">Контакти</p>
+        <a class="muted" href="mailto:hello@aisite.ai">hello@aisite.ai</a>
+        <p class="muted">Київ · Рига · Відень</p>
+      </div>
+      <div>
+        <p class="label">Соціальні мережі</p>
+        <div class="social">
+          <a href="#">LinkedIn</a>
+          <a href="#">GitHub</a>
+          <a href="#">Medium</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
